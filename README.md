@@ -21,7 +21,6 @@
 - [Evaluation](#evaluation)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Websites](#websites)
 - [Acknowledgements](#acknowledgements)
 
 <hr>
@@ -553,7 +552,7 @@ If you want to run this project locally, we must clone the project.
 <hr>
 
 
-## Credits and References
+## Credits
 
 Personal credits go out to the following people:
 - Spencer Barriball the developer's mentor who guided in the development of the project at inception stage. 
