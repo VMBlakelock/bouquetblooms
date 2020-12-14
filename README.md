@@ -160,17 +160,17 @@ The website owner would like the website design to:
 
 Desktop:
 
-[Home](base-desktop.png)
-[Register](register-desktop.png)
-[Login](login-desktop.png)
-[Subscription](subscription-desktop.png)
+[Home](wireframes/base-desktop.png)
+[Register](wireframes/register-desktop.png)
+[Login](wireframes/login-desktop.png)
+[Subscription](wireframes/subscription-desktop.png)
 
 Mobile:
 
-[Home](base-mobile.png)
-[Register](register-mobile.png)
-[Login](login-mobile.png)
-[Subscription](subscription-mobile.png)
+[Home](wireframes/base-mobile.png)
+[Register](wireframes/register-mobile.png)
+[Login](wireframes/login-mobile.png)
+[Subscription](wireframes/subscription-mobile.png)
 
 ### Surface 
 
