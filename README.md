@@ -154,24 +154,17 @@ The website owner would like the website design to:
 
 ### Skeleton
 
-- Wireframes where created with only the main pages of the site in mind. Therefore only four for 2 device type where initially created.
+- Initially three wireframes where created - the main pages of the site.
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 Desktop:
 
-[Home](wireframes/base-desktop.png)
-[Register](wireframes/register-desktop.png)
-[Login](wireframes/login-desktop.png)
-[Recipes](wireframes/recipes-desktop.png)
+[BouquetBlooms](BouquetBlooms.pdf)
 
 Mobile:
 
-[Home](wireframes/base-mobile.png)
-[Register](wireframes/register-mobile.png)
-[Login](wireframes/login-mobile.png)
-[Recipes](wireframes/recipes-mobile.png)
-
+[BouquetBlooms](BouquetBlooms.pdf)
 
 ### Surface 
 
