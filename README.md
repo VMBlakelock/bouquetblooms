@@ -154,17 +154,23 @@ The website owner would like the website design to:
 
 ### Skeleton
 
-- Initially three wireframes where created - the main pages of the site.
+- Initially four wireframes where created - the three main pages of the site and a subscription page.
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
 Desktop:
 
-[BouquetBlooms](BouquetBlooms.pdf)
+[Home](base-desktop.png)
+[Register](register-desktop.png)
+[Login](login-desktop.png)
+[Subscription](subscription-desktop.png)
 
 Mobile:
 
-[BouquetBlooms](BouquetBlooms.pdf)
+[Home](base-mobile.png)
+[Register](register-mobile.png)
+[Login](login-mobile.png)
+[Subscription](subscription-mobile.png)
 
 ### Surface 
 
