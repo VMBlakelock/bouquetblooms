@@ -339,6 +339,12 @@ It was realised this was mostly due to the 2 line spacing rule and using the tab
 
 #### Issue 2
 
+SECRET KEY - During development the SECRET_KEY was accidently pushed to GitHub. The developer did not realise Django automatically
+creates this and  therefore pushed the code. On recieving the GitGuardian email the error was realized and a new env.py file was created
+and a new Django SECRET_KEY added. The project was then repushed.
+
+#### Issue 3
+
 Edit and Delete routing was the developers main issue. It was found to be difficult to resolve and threw many Jinja errors. 
 Errors where cleared when it was found that Flask routing, route decorators and Pymongo had typo's.   
 
@@ -592,6 +598,9 @@ Websites reviewed and used during the creation of this project.
 
 - [Markdownguide](https://www.markdownguide.org/basic-syntax/)
   - This website was used to refresh knowledge on how to write Markdown.
+
+- [Miniwebtool](https://miniwebtool.com/django-secret-key-generator/)
+  - This website was used to generate the new SECRET_KEY.
 
 - [Pexels](https://www.pexels.com/)
   - Website flower images were selected from this source.
