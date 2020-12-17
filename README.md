@@ -531,6 +531,9 @@ Websites reviewed and used during the creation of this project.
 - [Codeacademy](https://www.codecademy.com/catalog/language/python)
   - Article referring to Python programming language.
 
+- [Diffchecker](https://www.codecademy.com/catalog/language/python)
+  - Site for checking differences in code.
+
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
   - Used for choosing the site font.
 
