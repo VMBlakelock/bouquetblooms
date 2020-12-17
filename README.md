@@ -336,8 +336,10 @@ It was realised this was mostly due to the 2 line spacing rule and using the tab
 #### Issue 2
 
 SECRET KEY - During development the SECRET_KEY was accidently pushed to GitHub. The developer did not realise Django automatically
-creates this and  therefore pushed the code. On recieving the GitGuardian email the error was realized and a new env.py file was created
-and a new Django SECRET_KEY added. The project was then repushed.
+creates this and therefore pushed the code. On receiving the GitGuardian email the error was realized and a new env.py file was created
+and a new Django SECRET_KEY added. The project was then repushed. However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
+Something for the developer to note for future 'all major changes and bug fixes to be commited and pushed for reference'.
+
 
 #### Issue 3
 
