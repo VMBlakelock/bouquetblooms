@@ -41,9 +41,9 @@ Technologies to be used in the project are HTML/CSS/Javascript/Python/Django.
 
 ### Purpose
 
-BouquetBlooms is a floristry website in which users can subscribe have fresh bouquets of flowers delivered to them.
+BouquetBlooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
 
-All users to the site will see the websites services. However only registered users can subscribe.
+All users to the site will see the websites services. However only registered users can subscribe and order.
 
 
 <hr>
@@ -61,9 +61,9 @@ As a guest user I want to:
  - navigate around the site easily.
  - find a navigation bar that links to other pages when clicked. 
  - understand the sites purpose upon landing.
- - be able to view various content on the site.
+ - be able to view the sites basic offerings.
  - be able to click social media icons to link out to other BouquetBlooms pages.
- - have the option to register to the site to be able to interact with the site and to see more.
+ - have the option to register to the site to be able to interact with the site, see more and make a purchase.
 
 ### Registered Account
 
@@ -72,9 +72,10 @@ As a registered user I want to:
  - log into the site easily.
  - log out successfully.
  - have buttons to click to login, log out and submit data.
- - review the services before purchasing.
  - be able to add services to my basket.
- - recieve and email when ive purchased something.
+ - review the services in my basket before purchasing.
+ - safe and secure area where I can add confidential data and payment details.
+ - recieve and email when i've purchased something.
  - be able to cancel a subsription if I change my mind.
  - be notified of all my interactive actions.
 
@@ -92,10 +93,9 @@ The website owner would like users of the website to:
 -  Interact with the site.
 -  Enjoy the site.
 -  Find the site easy to register to and purchase services.
--  Contribute to the site to create a vast selection of interesting data.
 
 The website owner would like the website design to: 
-- be clean and crisp with visuals that use the ......
+- be clean and crisp with visuals that are minimal and of soft colours.
 - have professional images that creates an instant attraction to the site.
 - have whitespace to create flow.
 - be easy to navigate.
@@ -110,25 +110,26 @@ The website owner would like the website design to:
 ### Strategy
 
 - BouquetBlooms is an e commerce website. It allows users to purchase a service. 
-  This service in in the form of a subscription.
-- It features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Django. 
+- This service is in the form of a subscription.
+- The subscription is a one time payment and the service is then dispensed monthly by the retailer.
+- The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Django. 
 - The project uses a ...................... database. 
 - There is a clear brand to the site that draws users and entices further interaction.
-- Users who discover BouquetBlooms, ........................
-- BouquetBlooms has the potential of not only being a content sharing site, it could potentially become a business site. 
-  Adding a few additional features and marketing the site well could mean BouquetBlooms could generate more revenues.
-- During research there were other sites found that had the same 'subscription' concept, but most offered a full inventory of products. 
+- Users who discover BouquetBlooms, love flowers and are excited to use the service.
+- BouquetBlooms has the potential to become an excellent revenue generating business site. 
+  Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetBlooms could generate even more revenues.
+- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetBlooms had just one subscription and one product set. 
 
 
 ### Scope 
 
-- The site was developed with the intention of allowing users to build a database of their own recipes.
-- The database of choice to build with was NoSQL - MongoDB.
+- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetBloom.
+- The database of choice to build with was ...............
 - It was scoped to provide ease of use.
-- Needed to have the CRUD functionality.
-- Must house a home page, registration page, log in page, log out page.
+- Have minimal pages, however must house a home page, registration page, log in page, log out page.
+- Have and app that allowed users to purchase from the site.
 - Be responsive on all devices.
-- Be visually appealing that incorporated Greek culture in the front-end design.
+- Be visually appealing that incorporated the beauty of  flowers and blooms in the front-end design.
 
 
 ### Structure
@@ -174,13 +175,13 @@ Mobile:
 
 Front-end visuals where based on:
  - A great brand design.
- - .............. colours.
- - ......... images.
- - Enlightening and positive text.
-   It is anticipated that the user would feel positive on landing on the site ......
+ - Soft pastel colours.
+ - Vibrant and professional flower and bouquet images.
+ - Enticing and positive text.
+ - It is anticipated that the user would feel happy and positive on landing on the site and feel they wanted to purchase something even if that wasnt their intention.
 
-The typography colours and fonts where important to promote ............, with a tempting, feel good reaction.
-With flowers....... symbolic colours ....., the sites aim was to incorporate this into its design. 
+The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fullfil the sites output fully.
+With vibrant flower images in all colours the sites aim was to incorporate the many different seasonal blooms on offer into its design. 
 
 BouquetBlooms chose a simplistic design with ample whitespace so to not overpower the user.
 
@@ -197,26 +198,22 @@ BouquetBlooms chose a simplistic design with ample whitespace so to not overpowe
 
 **User friendly:** Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles and tablets to provide easy navigation. 
 
-**Fonts and Colours:** Simplistic design incorporating only minimal colour and text.
+**Fonts and Colours:** Simplistic design incorporating only pastel colour and minimal text.
 
 **Navbar:** A Bootstrap fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
 
-**Button:** Chosen from Bootstrap the buttons when clicked do something and confirm user actions. Buttons are big and small an over different colours and provide 'word' instruction. 
+**Button:** Chosen from Bootstrap the buttons when clicked do something and confirm user actions. Buttons are big and small an of different colours and provide 'word' instruction. 
 
-**Forms:** Code from Bootstrap. The Register, Log In, Add Recipe and Edit Recipe pages all have forms on that are required to be completed. The forms are self explanatory.
-They have a drop down, so the user can select a recipe category. They also have input fields and textareas that are set with min-length and max-length classes.
+**Forms:** Code from Bootstrap. The Register, Log In, pages both have forms on that are required to be completed. The forms are self explanatory.
+They have input fields and textareas that are set with min-length and max-length classes.
 
-**Icons:** Font Awesome icons are used on the form fields to provide instructions aswell as for design. 
+**Icons:** Font Awesome icons are used on the form fields to provide instructions aswell as for design, the font awesome kit is used in the code. 
 
-**Images:** Bold and relevant images are used in the design. Selected images provide a luxury feel.
+**Images:** Vibrant images are used in the design. Selected images provide an idea of the product on offer.
 
-**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' and 'Profile page' to redirect users to an alternative area dependent on their next wanted action.
+**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' to redirect users to an alternative area dependent on their next wanted action.
 
-**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will receive the message "Incorrect Username and/or Password".
-The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will receive the message "You have successfully logged out".
-Flash messages are also used for confirming a recipe has been added, edited and deleted.
-
-**Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
+**Search Bar:** Have a 'Search' bar, so users can search for specific recipe using key words.
 
 **Footer:** The footer provides a clear indication of the end of the page.
 
@@ -224,20 +221,27 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 **Copyright:** Copyright logo - hosts the website owners own work.
 
+########################################
+
+**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will receive the message "Incorrect Username and/or Password".
+The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will receive the message "You have successfully logged out".
+Flash messages are also used for confirming a recipe has been added, edited and deleted.
+
+**Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
+
+############################################
+
 ### Future Features
 
 BouquetBlooms - Future features could include:
 
 - Having a larger database of subscription packages for guest users to view and purchase.
-- The subscriptions could be seasonal, have different price points ........
-- An image field on Add Recipe page where users can upload images of their own Greek foods to their recipes.
-- User profile to be extended to allow users to upload images and information about themselves that other registered users can view.
+- The subscriptions could be seasonal or weekly, have different price points.
+- User profile to be created.
 - Have a logo, that takes the BouquetBlooms text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
-- Have a 'Search' bar, so users can search for specific recipe using key words.
-- A badge or icon level that registered users of the site could achieve, when 'X' number of entries have been added - i.e - Top Top Contributor.
-- A review score or like element that the community of users can click on, if they like or have tried a recipe posted by others.
-- Response section to provide users with feedback on added recipes.
+- A review score of the products.
+- Feedback section to provide users with feedback on the sites product and services.
 - Forgotten password feature, so passwords can be reset.
 - A blog that gives advise and learnings on floristry.
 - A messenger area where registered users can chat to a company employee live on the site.
@@ -256,13 +260,13 @@ BouquetBlooms - Future features could include:
 - JSON
 
 #### Frameworks
-- [Django](https://...................../)
-    - The web application framework used in the project to ...........................
+- [Django](https://www.djangoproject.com/)
+    - The web application framework used in the project to allow fast and easy development of sites.
 
 - [Werkzeug](https://palletsprojects.com/p/werkzeug/)
     - A web application library in Flask that was used to for secure authentication using password hashing.
 
-- [Bootstrap](https://.............com/)
+- [Bootstrap](https://getbootstrap.com/)
     - A web based front-end framework that assists in responsiveness and styling that was used throughout the project.
 
 - [JQuery](https://jquery.com/)
@@ -295,7 +299,7 @@ BouquetBlooms - Future features could include:
 
 #### Font Awesome
 - [Font Awesome](https://fontawesome.com/)
-    - A popular site that provides icons for developers to use for UX.
+    - Used for UX icons and getting 'kit' code.
 
 #### RandomKeygen
 - [RandomKeygen](https://www.randomKeygen.com/)
@@ -308,14 +312,6 @@ BouquetBlooms - Future features could include:
 
 
 <hr>
-
-## Defensive Design
-
-*Defensive design is the practice of planning for contingencies in the design stage of a project or undertaking. Essentially, it is the practice of anticipating all possible ways that an end-user could misuse a device, and designing the device so as to make such misuse impossible, or to minimize the negative consequences.*
-[Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/)
-
-Defensive design was used in the projects 'Form' elements. When entering text to the sites form areas the defensive design can be seen in action.
-To ensure the user inputs are correct they are validated by the class 'validate' and the inputs 'minlength', 'maxlength' and 'pattern'.
 
 ### Testing
 
@@ -345,11 +341,6 @@ and a new Django SECRET_KEY added. The project was then repushed.
 
 #### Issue 3
 
-Edit and Delete routing was the developers main issue. It was found to be difficult to resolve and threw many Jinja errors. 
-Errors where cleared when it was found that Flask routing, route decorators and Pymongo had typo's.   
-
-#### Issue 3
-
 env.py file - the file kept advising on 'lines being to long', with notes referring to flakes and cornflakes. These errors where not all fixed due to lack of knowledge on developers part.
 
 #### Issue 4
@@ -358,7 +349,7 @@ app.py file - the file errors with 'env imported but unused' and 'over indented'
 
 #### Issue 5
 
-All html templates except base.html return 'Doctype must be declared first' errors. As noted during module exercises prior to development this is acceptable due to the linter Gitpod uses not understanding the template language Jinja. 
+All html templates except base.html return 'Doctype must be declared first' errors. As noted during previous module exercises prior to development this is acceptable due to the linter Gitpod uses not understanding the template language Jinja. 
 
 *When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
 Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
@@ -366,45 +357,9 @@ Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template I
 
 #### Issue 6
 
-The Recipes page, doesn't error but the developer failed to solve the issue of coding images that where different for each individual recipe. The idea not initially planned for
-was to have an image that matched the recipe. Therefore a placeholder image was added for better UX, however this placeholder is the same for every recipe inputted.
-
-#### Issue 7
-
 It was found during development that the site definitely needed more pages adding. The initial four created an inception and wireframing wasn't going to be enough. 
 This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
-Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose.
-
-#### Issue 8
-
-The navbar and footer background should have been the same colour. However the developer could not get the colours to match using the Materialize
-colour #2196f3 blue. Therefore it was decided to use a deeper blue in CSS file, using ColourPicker :rgb(2, 32, 114). 
-
-#### Issue 9
-
-The inital plan was to utilize a Carousel on the home page (as referenced on the 'base' wireframe), so the site could house a selection of images that had automatic movement. 
-The developer chose the Materialize framework for this project, however this feature wasn't loading well and was slow to show images and the links kept breaking therefore it was decided to remove the carousel after various tests that the developer couldn't fix.
-In its place one main image was used above 3 small ones. 
-
-#### Issue 10
-
-The image on the Home page is a little large and doesn't sit nicely on the page. On opening the site the bottom of the image is cut off. 
-However as the user can scroll further down to see other content it is acceptable. However something for the developer to look into in the future.
-The same applies on the Highlights page the images are far too big and need to be reduced in size. Due to time constraints this was not able to be rectified.
-
-#### Issue 11
-
-A Favourites toggle was a feature that was considered at midpoint of the project. The idea being that the registered user could 'mark_favourite' a recipe.
-The code was written and the idea was implemented. Unfortunately the developer was unable to get the function to work correctly, one issue was that it upset the alignment on the recipes page (it added the name of the recipe a second time on the page. Not only did it look out of place it also moved the delete button to the right).
-Therefore this and due to time constraints to continue to develop and test the code in recipes.html was removed. but left in the add_recipe.html and in edit_recipe.html ready for implentation in the future.
-The favourite toggle it still visable on the Add recipe and Edit recipe pages and it can be moved, however it doesnt have a function attached.
-
-#### Issue 12
-
-Google fonts where used throughout development with the CSS font family, set to Arial.
-At the end of the project it was decided to use Google font 'import' to use the font 'Texturina' so it had a more Greek text styling, however it was found during final testing that the font wouldn't change. 
-Google Dev Tools shows the font is set to *font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*.
-It is believed to be due to a Materialize override, however cannot be concluded due to the lack of knowledge on Materialize documentation. Something the developer will look into in the future.
+Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose. 
 
 
 ### Validation sites
@@ -413,16 +368,10 @@ It is believed to be due to a Materialize override, however cannot be concluded 
   However there were some errors the developer was unable to fix. Below shows a few examples.
   
   base.html
-  - 21 errors found
+  - x errors found
   
-  Error: Parse Error.
-    At line 81, column 14
-  
-  add_recipe.html
-  - 6 errors found.
-    
-  Error: Text not allowed in element select in this context.
-    From line 32, column 1; to line 32, column 37    
+  Error: xxx.
+    At line x, column x   
 
 
 - [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasn't implemented due to lack of understanding on how to resolve them and to time constraints. 
@@ -561,18 +510,10 @@ If you want to run this project locally, we must clone the project.
 ## Credits
 
 Personal credits go out to the following people:
-- Spencer Barriball the developer's mentor who guided in the development of the project at inception stage. 
 
 Tutor Support
-- Tim Nelson from tutor support who clarified issues within Cloud 9 videos and Gitpod usage.
-- Samantha from student support who tried to assist with the routing issues although the issue wasnt solved during the session.
-  Samantha guided the developer to look at the areas needed to rectify.
-- Michael and Igor for assisting on final housekeeping and security questions prior to submitting.
-
-
-Web References
-- [Wikipedia](https://en.wikipedia.org/wiki/Defensive_design/)
-    - Used to determine the exact meaning of defensive design.
+- Igor from tutor support who clarified issues regarding Secret key errors.
+- Scott for totor support for assisting in follow up questions to Igor, also pointing me in the direction of Gitpod variable section.
 
 <hr>
 
@@ -587,11 +528,11 @@ Websites reviewed and used during the creation of this project.
 - [Bootstrap](https://getbootstrap.com/)
   - Researching carousel functionality, although wasn't used in the project.
 
-- [Codeacademy](https://www.codeacademy.com/articles/what-is-crud/)
-  - Article referring to "..................".
+- [Codeacademy](https://www.codecademy.com/catalog/language/python)
+  - Article referring to Python programming language.
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
-  - Used for choosing the sites font.
+  - Used for choosing the site font.
 
 - [Jshint](https://jshint.com/)
   - Validation testing of Javascript.
@@ -617,9 +558,9 @@ Websites reviewed and used during the creation of this project.
 - [Techsini](https://techsini.com/multi-mockup/)
   - Used for Mock Up Images.
 
-- [Tech with Tim](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
-    - A series of You Tube tutorial videos to gain greater understanding of Flask.
-
+- [TraversyMedia](https://youtu.be/e1IyzVyrLSU)
+    - A You Tube tutorial video to gain greater understanding of Django.
+    
 - [Werkzeug](https://palletsprojects.com/p/werkzeug/)
     - Used to gain knowledge in authentication and secure passwords.
 
@@ -634,14 +575,16 @@ Websites reviewed and used during the creation of this project.
 
 ## Acknowledgements
 
-[Slack](https://slack.com/intl/en-gb/) , the entire community of students past and present for their motivation and concern.
-
-My mentor Spencer Barriball for initial guidance on the development of the website.
+[Slack](https://slack.com/intl/en-gb/), the entire community of students past and present for their motivation and concern in this last submission and pushing to 
+ensure something was submitted.
 
 [Code Institute](https://codeinstitute.net/) Tutor Support for assistance when facing difficulties.
 
-The developer's ability to get this project created with very little time to ensure this final milestone was submitted before subscription ended.
-
+The developer's abilities where tested during the development of this project.
+2020 has been a strange and tough year, the developer tried hard to stay on track with study and submissions as well as working full time, over and above the 
+normal working days throughout the year. Unfortunatley time and health tookover.
+Therefore ms4 project was created with minimum time left before submission date and the developers subscription ended. Unfortunately no additional extentions where allowed.
+Therefore apologies for the basic and unfunished BouquetBlooms project submission, however it was decided to submit something than nothing.
 
 
 *Created for education purposes only*
