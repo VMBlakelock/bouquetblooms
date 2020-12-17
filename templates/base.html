@@ -41,13 +41,14 @@
   <body>
     
     <header class="container-fluid fixed-top">
+            <!-- top nav -->
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0"><strong>Bouquet</strong> Blooms</h2>
                 </a>
             </div>
-                <!-- form -->
+                <!-- search bar form -->
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                     <form method="GET" action="">
                         <div class="input-group w-100">
@@ -63,7 +64,7 @@
                         </div>
                     </form>
                 </div>
-    
+                <!-- my account -->
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                     <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                         <li class="list-inline-item dropdown">
@@ -87,6 +88,7 @@
                                 {% endif %}
                             </div>
                         </li>
+                        <!-- shopping basket -->
                         <li class="list-inline-item">
                             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                                 href="">
@@ -105,6 +107,15 @@
                     </ul>
                 </div>
             </div>
+        <!-- category nav -->
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile_top_header.html' %}
+                {% include 'includes/main_nav.html' %}
+            </nav>
         </div>
     </header>
 
