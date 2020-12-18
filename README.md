@@ -36,7 +36,7 @@
 
 To create a full stack website that allows users to purchase a product or service.
 
-Technologies to be used in the project are HTML/CSS/Javascript/Python/Django.
+Technologies to be used in the project are HTML/CSS/Javascript/Python3 and Django - v3.1.4.
 
 
 ### Purpose
@@ -175,7 +175,7 @@ Mobile:
 
 Front-end visuals where based on:
  - A great brand design.
- - Soft pastel colours.
+ - Soft pastel colours in wallpapers.
  - Vibrant and professional flower and bouquet images.
  - Enticing and positive text.
  - It is anticipated that the user would feel happy and positive on landing on the site and feel they wanted to purchase something even if that wasnt their intention.
@@ -183,10 +183,10 @@ Front-end visuals where based on:
 The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fullfil the sites output fully.
 With vibrant flower images in all colours the sites aim was to incorporate the many different seasonal blooms on offer into its design. 
 
-BouquetBlooms chose a simplistic design with ample whitespace so to not overpower the user.
+BouquetBlooms chose a simplistic design with whitespace so to not overpower the user.
 
- - colour: rgb(2, 32, 114)  - from Colorcodehex 
- - font: '........' - from Google Fonts
+ - colour: #555;  - from Colorcodehex 
+ - font: 'Lato' - from Google Fonts
 
 <hr>
 
@@ -330,8 +330,10 @@ Some errors where not rectified, this was due to either lack of developer knowle
 
 #### Issue 1
 
-Initial issues occurred when working on app.py file. It was difficult to clear the errors Gitpod advised on. 
-It was realised this was mostly due to the 2 line spacing rule and using the tab key instead of spaces.
+Issues with errors occurred when working on py files. I had to clear the errors Gitpod advised on. 
+Most errors due to the 2 line spacing rule and using the tab key instead of spaces and also not entering to a new line.
+Other errors included -*'lines being to long'* and *'Doctype must be declared'*. 
+Most errors where fixed except those of which the developer did not understand fully for example 'imported but unused'. 
 
 #### Issue 2
 
@@ -343,7 +345,7 @@ Something for the developer to note for future 'all major changes and bug fixes 
 
 #### Issue 3
 
-env.py file - the file kept advising on 'lines being to long', with notes referring to flakes and cornflakes. These errors where not all fixed due to lack of knowledge on developers part.
+
 
 #### Issue 4
 
@@ -538,6 +540,9 @@ Websites reviewed and used during the creation of this project.
 
 - [Google Fonts](https://www.fonts.google.com/basic-syntax/)
   - Used for choosing the site font.
+
+- [Jsonformatter](https://jsonformatter.org/)
+  - Reviewed whilst following the module videos.
 
 - [Jshint](https://jshint.com/)
   - Validation testing of Javascript.
