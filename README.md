@@ -332,8 +332,15 @@ Some errors where not rectified, this was due to either lack of developer knowle
 
 Issues with errors occurred when working on py files. I had to clear the errors Gitpod advised on. 
 Most errors due to the 2 line spacing rule and using the tab key instead of spaces and also not entering to a new line.
-Other errors included -*'lines being to long'* and *'Doctype must be declared'*. 
-Most errors where fixed except those of which the developer did not understand fully for example 'imported but unused'. 
+Other errors included -*'lines being to long'* and *'Doctype must be declared'*.  
+In previous module for using Flask it was advised that it is acceptable for the *'Doctype must be declared'* to be left uncleared as this was 
+due to the linter Gitpod uses not understanding the template language Jinja. 
+
+*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
+Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
+[Code Institute](https://codeinstitute.net/)
+
+Most errors where fixed except those of which the developer did not understand fully for example - 'imported but unused'.
 
 #### Issue 2
 
@@ -342,22 +349,22 @@ creates this and therefore pushed the code. On receiving the GitGuardian email t
 and a new Django SECRET_KEY added. However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
 Something for the developer to note for future 'all major changes and bug fixes to be commited and pushed for reference'.
 
-
 #### Issue 3
 
-
+When it came to adding datasets for the project it was advised to use [Kaggle](https://www.kaggle.com/).
+However when researching and trying to download there was an error on the site *too many requests*. Reading through the documentation and forums it seems this is a 
+known error. The developer requested advise from Code Institute on this matter to assist in moving forward with getting a dataset for the project.
 
 #### Issue 4
 
-app.py file - the file errors with 'env imported but unused' and 'over indented' flake8. Again these errors are not fixed due to lack of developers knowledge.
+During development the Gitpod terminal offered a warning. Advising that it was working with pip v20.2.4 and there was a new version and recommends and upgrade.
+The developer followed the on terminal instructions and upgraded to v20.3.3.
+
 
 #### Issue 5
 
-All html templates except base.html return 'Doctype must be declared first' errors. As noted during previous module exercises prior to development this is acceptable due to the linter Gitpod uses not understanding the template language Jinja. 
-
-*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
-Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
-[Code Institute](https://codeinstitute.net/)
+At one point during development Python advised to install [Pillow](https://pillow.readthedocs.io/en/stable/). The developer did not have any knowledge of this imaging library.
+The documentation was reviewed and the library was installed in the project.
 
 #### Issue 6
 
@@ -558,6 +565,9 @@ Websites reviewed and used during the creation of this project.
 
 - [Pexels](https://www.pexels.com/)
   - Website flower images were selected from this source.
+
+[Pillow](https://pillow.readthedocs.io/en/stable/)
+  - Reviewed site documentation due to python advising of installing it.
 
 - [Python](https://www.python.org/doc/essays/blurb/)
     - Reviewed for gaining additional understanding of the language.
