@@ -566,11 +566,11 @@ Websites reviewed and used during the creation of this project.
 - [Pexels](https://www.pexels.com/)
   - Website flower images were selected from this source.
 
-[Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
   - Reviewed site documentation due to python advising of installing it.
 
 - [Python](https://www.python.org/doc/essays/blurb/)
-    - Reviewed for gaining additional understanding of the language.
+  - Reviewed for gaining additional understanding of the language.
 
 - [RandomKeygen](https://www.randomKeygen.com/)
   - Used for Fort Knox password.
